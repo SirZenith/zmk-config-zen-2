@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     chosen {
@@ -50,7 +51,7 @@
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&mo 3  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none  &none
             >;
         };
@@ -60,7 +61,7 @@
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &mo 3
                      &none  &none  &none    &none  &none  &none
             >;
         };
@@ -68,10 +69,10 @@
         media {
             display-name = "Media control";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
+&kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp C_PREVIOUS  &kp UP_ARROW  &kp C_NEXT  &kp PAGE_UP        &none      &none      &none  &none  &none  &none
+&kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp LEFT        &kp DOWN      &kp RIGHT   &kp PAGE_DOWN      &none      &none      &none  &none  &none  &none
+&none                 &kp C_MUTE         &kp HOME        &kp C_PAUSE   &kp END     &kp INSERT         &none      &none      &none  &none  &none  &none
+                                                         &none         &none       &kp PRINTSCREEN    &mkp LCLK  &mkp RCLK  &none
             >;
         };
 
