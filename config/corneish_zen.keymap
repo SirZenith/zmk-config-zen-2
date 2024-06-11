@@ -85,7 +85,7 @@
         media {
             display-name = "Media control";
             bindings = <
-&kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp C_PREVIOUS  &kp UP_ARROW  &kp C_NEXT     &kp PAGE_UP        &none           &none           &none         &none            &none  &none
+&kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &kp C_PREVIOUS  &kp UP_ARROW  &kp C_NEXT     &kp PAGE_UP        &to 4           &to 5           &to 6         &to 7            &to 8  &to 0
 &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp LEFT        &kp DOWN      &kp RIGHT      &kp PAGE_DOWN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
 &none                 &kp C_MUTE         &kp HOME        &kp C_PAUSE   &kp END        &kp INSERT         &prev_desktop   &mkp LCLK       &mkp RCLK     &next_desktop    &none  &none
                                                          &none         &kp RIGHT_GUI  &kp PRINTSCREEN    &none           &kp RIGHT_GUI   &none
@@ -95,7 +95,7 @@
         layer_4 {
             display-name = "Overlay";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &to 0
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none  &none
@@ -105,7 +105,7 @@
         layer_5 {
             display-name = "Overlay";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &to 0
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none  &none
@@ -115,7 +115,7 @@
         layer_6 {
             display-name = "Overlay";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &to 0
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none  &none
@@ -125,7 +125,7 @@
         layer_7 {
             display-name = "Overlay";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &to 0
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none  &none
@@ -135,7 +135,7 @@
         layer_8 {
             display-name = "Overlay";
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &to 0
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                      &none  &none  &none    &none  &none  &none
